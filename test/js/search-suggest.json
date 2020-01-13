@@ -1,0 +1,93 @@
+{
+  "data": [
+  {
+    "groupId": "boIE0s",
+    "groupName": "title",
+    "groupFormattedName": "Title",
+    "suggestions": [
+    {
+      "term": "<b>Commiss</b>ion Interpretation Regarding Standard of Conduct for Investment Advisers",
+      "weight": 0,
+      "payload": "2019-12208",
+      "suggestionId": "5JZNa6"
+    },
+    {
+      "term": "<b>Commiss</b>ion Interpretation Regarding the Solely Incidental Prong of the Broker-Dealer Exclusion From the Definition of Investment Adviser",
+      "weight": 0,
+      "payload": "2019-12209",
+      "suggestionId": "XHU9mg"
+    },
+    {
+      "term": "State of Vermont: NRC Staff Assessment of a Proposed Agreement Between the Nuclear Regulatory <b>Commiss</b>ion and the State of Vermont",
+      "weight": 0,
+      "payload": "2019-13412",
+      "suggestionId": "LOxse0"
+    },
+    {
+      "term": "Open <b>Commiss</b>ion Meeting, Wednesday, July 10, 2019",
+      "weight": 0,
+      "payload": "2019-14722",
+      "suggestionId": "TRWVCd"
+    },
+    {
+      "term": "Cornell University; Notice of Application Tendered for Filing With the <b>Commiss</b>ion and Soliciting Additional Study Requests and Establishing Procedural Schedule for Relicensing and a Deadline for Submission of Final Amendments",
+      "weight": 0,
+      "payload": "2019-14735",
+      "suggestionId": "MFXTgw"
+    },
+    {
+      "term": "Information Collection Requirement Being Reviewed by the Federal Communications <b>Commiss</b>ion",
+      "weight": 0,
+      "payload": "2019-15498",
+      "suggestionId": "8MbdeF"
+    },
+    {
+      "term": "Vitol Inc. and Federico Corteggiano; Updated Notice of Designation of <b>Commiss</b>ion Staff as Non-Decisional",
+      "weight": 0,
+      "payload": "2019-15579",
+      "suggestionId": "ForQfE"
+    },
+    {
+      "term": "Certain Color Intraoral Scanners and Related Hardware and Software; Notice of a <b>Commiss</b>ion Determination To Review In-Part the Final Initial Determination; Request for Briefing",
+      "weight": 0,
+      "payload": "2019-15684",
+      "suggestionId": "FT7BET"
+    },
+    {
+      "term": "Information Collections Requirement Being Reviewed by the Federal Communications <b>Commiss</b>ion Under Delegated Authority",
+      "weight": 0,
+      "payload": "2019-15701",
+      "suggestionId": "0lcQ0z"
+    },
+    {
+      "term": "Women's Suffrage Centennial <b>Commiss</b>ion; Notification of Public Meeting",
+      "weight": 0,
+      "payload": "2019-15453",
+      "suggestionId": "zK0WSW"
+    }]
+  },
+  {
+    "groupId": "fiVpdr",
+    "groupName": "agencyName",
+    "groupFormattedName": "Agency Name",
+    "suggestions": [
+    {
+      "term": "Federal Communications <b>Commiss</b>ion",
+      "weight": 0,
+      "payload": "https://www.federalregister.gov/api/v1/agencies/161.json",
+      "suggestionId": "Lh99pQ"
+    },
+    {
+      "term": "Securities and Exchange <b>Commiss</b>ion",
+      "weight": 0,
+      "payload": "https://www.federalregister.gov/api/v1/agencies/466.json",
+      "suggestionId": "8hmJ5H"
+    },
+    {
+      "term": "Nuclear Regulatory <b>Commiss</b>ion",
+      "weight": 0,
+      "payload": "https://www.federalregister.gov/api/v1/agencies/383.json",
+      "suggestionId": "Z40hom"
+    }]
+  }]
+}

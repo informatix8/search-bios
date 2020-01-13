@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mocha Tests</title>
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+</head>
+<body>
+<div id="mocha"></div>
+<script src="node_modules/mocha/mocha.js"></script>
+<script src="node_modules/chai/chai.js"></script>
+<script>mocha.setup({ ui: 'bdd' })</script>
+
+<!-- load code you want to test here -->
+<script src="generated/search-bios.js"></script>
+
+<script src="generated/search-result-data-service-theta.js"></script>
+<script src="generated/search-suggest-data-service-epsilon.js"></script>
+<script src="generated/search-history-data-service-memory.js"></script>
+
+<!-- load your test files here -->
+<script type="module" src="test/test-history.js"></script>
+<script type="module" src="test/test-suggestions.js"></script>
+<script type="module" src="test/test1.js"></script>
+<script type="module" src="test/test2.js"></script>
+<script type="module" src="test/test-arrows.js"></script>
+
+<script type="module">
+    mocha.run();
+</script>
+</body>
+</html>
