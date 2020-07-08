@@ -845,19 +845,21 @@ export default class SearchBIOS {
             value = 0;
         }
 
-        if (typeof (window._gaq) !== 'undefined') {
-            window._gaq.push(['_trackEvent', category, action, label, value]);
-        }
-        else if (typeof (window.gtag) !== 'undefined') {
-            // jscs:disable
-            window.gtag('event', action, {
-                event_category: category, // jshint ignore:line
-                event_label: label // jshint ignore:line
-            });
-            // jscs:enable
-        }
-        else if (typeof (window.ga) !== 'undefined') {
-            window.ga('send', 'event', category, action, label, value);
+        if (typeof window !== 'undefined') {
+            if (typeof (window._gaq) !== 'undefined') {
+                window._gaq.push(['_trackEvent', category, action, label, value]);
+            }
+            else if (typeof (window.gtag) !== 'undefined') {
+                // jscs:disable
+                window.gtag('event', action, {
+                    event_category: category, // jshint ignore:line
+                    event_label: label // jshint ignore:line
+                });
+                // jscs:enable
+            }
+            else if (typeof (window.ga) !== 'undefined') {
+                window.ga('send', 'event', category, action, label, value);
+            }
         }
     }
 
