@@ -552,7 +552,14 @@ export default class SearchBIOS {
      * @instance
      * @summary execute a search for what is in the search field
      */
-    search(val, reason) {
+    async search(val, reason) {
+        if (this.callbacks !== undefined && this.callbacks.validate !== undefined && typeof this.callbacks.validate === 'function') {
+            const validateResult = await this.callbacks.validate.apply(this, [val]);
+            if (!validateResult) {
+                return Promise.resolve();
+            }
+        }
+
         this.callCustom('preSearch', val, reason);
         this.request.q = val;
 
